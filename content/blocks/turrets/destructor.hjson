@@ -6,7 +6,7 @@
   "health": 1600,
   "reloadTime": 3,
   "maxAmmo": 100,
-  "range": 250,
+  "range": 125,
   "restitution": 0.1,
   "recoilAmount": 1,
   "spread": 7,
