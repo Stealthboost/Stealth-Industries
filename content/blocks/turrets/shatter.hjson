@@ -1,0 +1,38 @@
+{
+  "name": "Shatter",
+  "description": "A small, fast but inaccurate turret designed for up-close combat",
+  "type": "ItemTurret",
+  "size": 1,
+  "health": 300,
+  "reloadTime": 8,
+  "maxAmmo": 100,
+  "range": 100,
+  "restitution": 0.1,
+  "recoilAmount": 1,
+  "spread": 2,
+  "shootSound": "shoot",
+  "lifetime": 4,
+  "inaccuracy": 15,
+  "rotatespeed": 12,
+  "shots": 3,
+  "alternate": true,
+  "spacing": 1,
+  "ammoTypes": {
+    "copper": "standardCopper",
+    "graphite": "standardDense",
+    "silicon": "standardHoming"
+  },
+
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 70
+    },
+    {
+      "item": "graphite",
+      "amount": 35
+    }
+  ],
+  "category": "turret",
+  "research": "duo"
+}

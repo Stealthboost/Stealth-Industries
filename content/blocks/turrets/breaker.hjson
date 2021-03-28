@@ -1,0 +1,45 @@
+{
+  "name": "Breaker",
+  "description": "Fast, accurate and deadly",
+  "type": "ItemTurret",
+  "size": 2,
+  "health": 600,
+  "reloadTime": 4,
+  "maxAmmo": 100,
+  "range": 200,
+  "restitution": 0.1,
+  "recoilAmount": 1,
+  "spread": 7,
+  "shootSound": "shoot",
+  "lifetime": 4,
+  "inaccuracy": 10,
+  "rotatespeed": 12,
+  "shots": 2,
+  "alternate": true,
+  "spacing": 3,
+  "ammoTypes": {
+    "graphite": "standardDense",
+    "silicon": "standardHoming",
+    "pyratite": "standardIncendiary"
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 125
+    },
+    {
+      "item": "graphite",
+      "amount": 75
+    },
+    {
+      "item": "titanium",
+      "amount": 50
+    },
+    {
+      "item": "lead",
+      "amount": 50
+    }
+  ],
+  "category": "turret",
+  "research": "shatter"
+}

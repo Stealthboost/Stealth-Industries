@@ -1,0 +1,45 @@
+{
+  "name": "Destructor",
+  "description": "The real bullethell. Good luck feeding it",
+  "type": "ItemTurret",
+  "size": 3,
+  "health": 1600,
+  "reloadTime": 3,
+  "maxAmmo": 100,
+  "range": 250,
+  "restitution": 0.1,
+  "recoilAmount": 1,
+  "spread": 7,
+  "shootSound": "shoot",
+  "lifetime": 5,
+  "inaccuracy": 10,
+  "rotatespeed": 12,
+  "shots": 3,
+  "alternate": true,
+  "ammoTypes": {
+    "graphite": "standardDense",
+    "silicon": "standardHoming",
+    "pyratite": "standardIncendiary",
+    "thorium": "standardThorium"
+  },
+  "requirements": [
+    {
+      "item": "graphite",
+      "amount": 200
+    },
+    {
+      "item": "titanium",
+      "amount": 250
+    },
+    {
+      "item": "thorium",
+      "amount": 275
+    },
+    {
+      "item": "plastanium",
+      "amount": 150
+    }
+  ],
+  "category": "turret",
+  "research": "breaker"
+}
